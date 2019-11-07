@@ -1,0 +1,44 @@
+.start-screen {
+    background: darkblue;
+    color: yellow;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+.start-screen .game-title {
+    font-size: 5rem;
+}
+
+.start-screen button {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 40%;
+    height: 6rem;
+    border-radius: 3rem;
+    font-size: 3rem;
+    background: darkblue;
+    color: yellow;
+    border: solid 3px yellow;
+}
+
+.start-screen button:hover {
+    background: blue;
+}
+
+.start-screen button:active {
+    background: yellow;
+    color: darkblue;
+}
+
+.start-screen button:focus {
+    outline:0;
+}
+

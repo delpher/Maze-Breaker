@@ -1,0 +1,71 @@
+.hero {
+    width: 125px;
+    height: 160px;
+    position: absolute;
+    background-image: url('../sprites.png');
+    background-repeat: no-repeat;
+}
+
+.hero.down-1 {
+    background-position: 0 0;
+}
+
+.hero.down-2 {
+    background-position: -125px 0;
+}
+
+.hero.down-3 {
+    background-position: -250px 0;
+}
+
+.hero.down-4 {
+    background-position: -375px 0;
+}
+
+.hero.right-1 {
+    background-position: 0 -160px;
+}
+
+.hero.right-2 {
+    background-position: -125px -160px;
+}
+
+.hero.right-3 {
+    background-position: -250px -160px;
+}
+
+.hero.right-4 {
+    background-position: -375px -160px;
+}
+
+.hero.left-1 {
+    background-position: 0 -330px;
+}
+
+.hero.left-2 {
+    background-position: -125px -330px;
+}
+
+.hero.left-3 {
+    background-position: -250px -330px;
+}
+
+.hero.left-4 {
+    background-position: -375px -330px;
+}
+
+.hero.up-1 {
+    background-position: 0 -500px;
+}
+
+.hero.up-2 {
+    background-position: -125px -500px;
+}
+
+.hero.up-3 {
+    background-position: -250px -500px;
+}
+
+.hero.up-4 {
+    background-position: -375px -500px;
+}

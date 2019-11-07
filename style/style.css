@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.state {
+    font-size: 10pt;
+}
+
+.control-button {
+    width: 32px;
+    height: 32px;
+}
+
+#canvas {
+    margin-top: 2rem;
+    width: 150px;
+    height: 150px;
+}
