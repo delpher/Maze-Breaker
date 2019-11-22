@@ -17,6 +17,4 @@ ui.VisualGroup = function(children, getState , element) {
         const removed = children.splice(children.indexOf(child), 1)[0];
         removed && removed.visual.remove();
     }
-
-
-}
+};

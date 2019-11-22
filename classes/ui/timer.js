@@ -12,7 +12,7 @@ ui.Timer = function(getState, eventCallback) {
             _running = state.running;
             updateTimer.call(this);
         }, this);
-    }
+    };
 
     function whenStateChanged(state, callback, thisArg) {
         if (state.interval !== _interval || state.running !== _running)
@@ -28,4 +28,4 @@ ui.Timer = function(getState, eventCallback) {
     function raiseEvent() {
         this.raise(_event);
     }
-}
+};

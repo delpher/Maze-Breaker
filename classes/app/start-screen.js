@@ -39,4 +39,4 @@ app.StartScreen = function (state, events) {
                     ? false
                     : visible;
     }
-}
+};

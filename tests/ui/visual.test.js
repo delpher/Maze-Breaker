@@ -17,4 +17,4 @@ specs.ui.RunVisualSpecs = function (BaseClass, done) {
         }
 
         new TestVisual().render(worldState);
-}
+};

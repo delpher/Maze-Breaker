@@ -12,4 +12,4 @@ app.Screens = function(state, events) {
             return 'start';
         return current;
     }
-}
+};

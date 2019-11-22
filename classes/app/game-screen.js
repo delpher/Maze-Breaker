@@ -3,4 +3,4 @@ app.GameScreen = function (state, events) {
         hero: app.Hero(state.hero, events),
         timer: app.Timer(state.timer, events)
     }
-}
+};

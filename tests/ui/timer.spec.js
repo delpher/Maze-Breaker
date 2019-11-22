@@ -12,7 +12,7 @@ describe('Timer', () => {
         const t = new TimerHelper({running: false});
         jasmine.clock().tick(2000);
         expect(t.eventCallback).not.toHaveBeenCalled();
-    })
+    });
 
     it('should raise event on interval when running', () => {
         const t = new TimerHelper();
@@ -90,7 +90,7 @@ describe('Timer', () => {
         jasmine.clock().tick(1000);
 
         expect(t.eventCallback).toHaveBeenCalledTimes(2);
-    })
+    });
 
     function TimerHelper(state) {
         let _state = Object.assign({},

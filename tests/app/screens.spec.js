@@ -3,7 +3,7 @@ describe('Screens', () => {
     beforeEach(() => {
         spyOn(app, "StartScreen").and.callFake(s => s);
         spyOn(app, "GameScreen").and.callFake(s => s);
-    })
+    });
 
     it('should update game screen', () => {
         const newGameState = {};

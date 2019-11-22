@@ -5,4 +5,4 @@ ui.Visual = function(getState, element) {
         if (typeof this.onRender === 'function')
             this.onRender(getState(state));
     }
-}
+};

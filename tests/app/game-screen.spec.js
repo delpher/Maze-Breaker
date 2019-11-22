@@ -7,7 +7,7 @@ describe('GameScreen', () => {
 
     it('should update hero', () => {
         const newHeroState = {};
-        const state = { hero: {} }
+        const state = { hero: {} };
         app.Hero.and.returnValue(newHeroState);
 
         const newState = app.GameScreen(state);
@@ -17,7 +17,7 @@ describe('GameScreen', () => {
 
     it('should update timer', () => {
         const newTimerState = {};
-        const state = { timer: {} }
+        const state = { timer: {} };
         app.Timer.and.returnValue(newTimerState);
 
         const newState = app.GameScreen(state);

@@ -5,9 +5,9 @@ ui.game.HeroSprite = function(getState) {
         this.visual.removeClass();
         this.visual.addClass("hero");
         this.visual.addClass(getSpriteClass(state));
-    }
+    };
     
     function getSpriteClass(state) {
         return state.direction + '-' + state.sprite;
     }
-}
+};

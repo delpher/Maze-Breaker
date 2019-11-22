@@ -15,4 +15,4 @@ ui.game.Hud = function(getState) {
     this.onRender = function(state) {
         this.visual.text(state.lines.join('\r\n'));
     }
-}
+};

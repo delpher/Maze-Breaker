@@ -13,9 +13,9 @@ ui.start.StartScreen = function(eventCallback) {
     this.onRender = function(state) {
         _baseOnRender(state);
         this.visual.toggle(state.visible);
-    }
+    };
 
     function getState(state) {
         return Object.assign({}, state.screens.start, { visible: state.screens.current === 'start' });
     }
-}
+};

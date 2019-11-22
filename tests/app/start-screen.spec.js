@@ -9,4 +9,4 @@ describe('StartScreen', () => {
 
         const newState = app.StartScreen(state, []);
     })
-})
+});

@@ -8,4 +8,4 @@ ui.Application = function(initialState, eventCallback) {
         $('body'));
 
     this.render(initialState);
-}
+};

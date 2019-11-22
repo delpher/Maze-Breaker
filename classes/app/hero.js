@@ -46,4 +46,4 @@ app.Hero = function(state, events) {
     function when(condition, callback) {
         return condition ? callback() : false;
     }
-}
+};

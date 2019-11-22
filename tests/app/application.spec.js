@@ -1,5 +1,9 @@
 describe('Application', function() {
 
+    beforeEach(function() {
+        spyOn(app, 'Hud');
+    });
+
     it('should update screens', function() {
         const state = {
             screens: {}
@@ -7,7 +11,7 @@ describe('Application', function() {
         const nextScreensState = {};
         const events = [];
 
-        spyOn(app, "Screens")
+        spyOn(app, 'Screens')
             .withArgs(state.screens, events)
             .and.returnValue(nextScreensState);
 

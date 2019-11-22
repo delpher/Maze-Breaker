@@ -12,4 +12,4 @@ ui.start.GameButton = function(event, getState, eventCallback) {
         this.visual.find('button').text(state.title);
         this.visual.toggle(state.visible);
     }
-}
+};

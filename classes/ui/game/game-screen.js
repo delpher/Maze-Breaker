@@ -8,7 +8,7 @@ ui.game.GameScreen = function (eventCallback) {
     ],
     s => getState(s));
 
-    ui.EventSource.call(this, eventCallback)
+    ui.EventSource.call(this, eventCallback);
 
     this.visual.addClass('game-screen');
     $(window).on('keydown', onKeydown);
@@ -18,7 +18,7 @@ ui.game.GameScreen = function (eventCallback) {
         _baseOnRender(state);
         _visible = state.visible;
         this.visual.toggle(state.visible);
-    }
+    };
 
     function onKeydown(e) {
         if (!_visible) return;
@@ -32,4 +32,4 @@ ui.game.GameScreen = function (eventCallback) {
     function getState(state) {
         return Object.assign({}, state.screens.game, { visible: state.screens.current === 'game' })
     }
-}
+};

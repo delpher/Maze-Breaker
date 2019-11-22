@@ -13,4 +13,4 @@ app.Hud = function(state, events) {
     function formatEvents(events) {
         return events.map(event => Date.now() + ': ' + event)
     }
-}
+};

@@ -3,7 +3,7 @@ app.Timer = function (state, events) {
         interval: state.interval,
         event: state.event,
         running: running(state.running, events)
-    }
+    };
 
     function running(state, events) {
         return events.includes('game.stop') || events.includes('game.pause')
@@ -12,4 +12,4 @@ app.Timer = function (state, events) {
                 ? true
                 : state;
     }
-}
+};

@@ -3,4 +3,4 @@ ui.start.GameTitle = function(text) {
 
     this.visual.text(text);
     this.visual.addClass('game-title');
-}
+};
